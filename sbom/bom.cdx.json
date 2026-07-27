@@ -1,0 +1,32 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:6f5b0b3d-4db5-4bb4-a9d4-8f8fd4f9b001",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-27T00:00:00Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "name": "Example SBOM Generator",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "example-python-project",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "Pygments",
+      "version": "2.19.2",
+      "purl": "pkg:pypi/pygments@2.19.2",
+      "bom-ref": "pkg:pypi/pygments@2.19.2"
+    }
+  ]
+}
