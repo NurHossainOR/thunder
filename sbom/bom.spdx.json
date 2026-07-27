@@ -1,0 +1,39 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "example-python-project",
+  "documentNamespace": "https://example.com/spdx/example-python-project-1.0.0",
+  "creationInfo": {
+    "created": "2026-07-27T00:00:00Z",
+    "creators": [
+      "Tool: Example SBOM Generator-1.0.0"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-Pygments",
+      "name": "Pygments",
+      "versionInfo": "2.19.2",
+      "downloadLocation": "https://pypi.org/project/Pygments/2.19.2/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pygments@2.19.2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-Pygments"
+    }
+  ]
+}
